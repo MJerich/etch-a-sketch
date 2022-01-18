@@ -1,0 +1,84 @@
+/* Normal tags */
+body {
+    background-color: #0d0d0d;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: rgb(243, 134, 134);
+}
+
+ul {
+    list-style: none;
+}
+
+footer {
+    color: #0d0d0d;
+    background-color: rgb(66, 66, 66);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* BIG wrappers */
+#wholeWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+/* buttons */
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(211, 211, 211);
+    background-color: #0d0d0d;
+    color: rgb(211, 211, 211);
+}
+button:hover {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    color: #0d0d0d;
+}
+
+button.active {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    color: #0d0d0d;
+}
+
+/* IDs */
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#grid {
+    background-color: rgb(211, 211, 211);
+    display: grid;
+    width: 500px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
