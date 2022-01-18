@@ -1,5 +1,5 @@
 // setup variables
-const DEFAULT_COLOR = '#000000'
+const DEFAULT_COLOR = 'rgb(66, 66, 66)'
 const DEFAULT_MODE = 'plain'
 const DEFAULT_SIZE = 16
 let currentColor = DEFAULT_COLOR
